@@ -16,9 +16,9 @@ def index():
 	weather = response['weather'][0]['main']
 
 	if weather == "Rain":
-		isitraining  = "yes"
+		isitraining  = "yes."
 	else:
-		isitraining  = "no"
+		isitraining  = "no."
   
 	return render_template("index.html",lat=lat,log=log,isitraining=isitraining)
 
@@ -34,8 +34,8 @@ def test():
 	weather = response['weather'][0]['main']
 
 	if weather == "Rain":
-		isitraining  = "yes"
+		isitraining  = "yes."
 	else:
-		isitraining  = "no"
+		isitraining  = "no."
   
 	return render_template("index.html",lat=lat,log=log,isitraining=isitraining)
