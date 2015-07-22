@@ -5,7 +5,6 @@ Written in a mad dash, leveraging Flask, requests, freegeoip.net, OpenWeatherMap
 
 https://freegeoip.net
 
-
-api key: b1bf90077b688b5e1b3c75301de15520
+api key: REDACTED (also regenerated and invalidated)
 username: isitraining
 site: http://openweathermap.org/
