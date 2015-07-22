@@ -1931,10 +1931,11 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
+  font-style: bold;
   font-weight: normal;
   line-height: 1.4;
   margin-bottom: 0.5rem;
+  margin-left:5rem;
   margin-top: 0.2rem;
   text-rendering: optimizeLegibility; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -1943,7 +1944,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 500px; }
 
 h2 {
   font-size: 1.6875rem; }
