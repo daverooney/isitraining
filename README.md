@@ -8,3 +8,5 @@ https://freegeoip.net
 api key: REDACTED (also regenerated and invalidated)
 username: isitraining
 site: http://openweathermap.org/
+
+As of 07/22/2015, actually live on http://isitraining.da.verooney.com/
