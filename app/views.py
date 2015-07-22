@@ -11,7 +11,7 @@ def index():
 	j = json.loads(r.text)
 	lat = j['latitude']
 	log = j['longitude']
-	url = "http://api.openweathermap.org/data/2.5/weather?lat=" + str(lat) + "&lon=" + str(log) + "&APPID=b1bf90077b688b5e1b3c75301de15520"
+	url = "http://api.openweathermap.org/data/2.5/weather?lat=" + str(lat) + "&lon=" + str(log)
 	response = requests.get(url).json()
 	weather = response['weather'][0]['main']
 
@@ -29,7 +29,7 @@ def test():
 	j = json.loads(r.text)
 	lat = 45
 	log = 139
-	url = "http://api.openweathermap.org/data/2.5/weather?lat=" + str(lat) + "&lon=" + str(log) + "&APPID=b1bf90077b688b5e1b3c75301de15520"
+	url = "http://api.openweathermap.org/data/2.5/weather?lat=" + str(lat) + "&lon=" + str(log)
 	response = requests.get(url).json()
 	weather = response['weather'][0]['main']
 
